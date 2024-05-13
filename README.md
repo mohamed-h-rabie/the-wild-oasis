@@ -1,220 +1,169 @@
 <div align="center">
 
-  <img src="/public/logo-dark.png#gh-dark-mode-only" alt="logo" width="200" height="auto" />
-  <img src="/public/logo-light.png#gh-light-mode-only" alt="logo" width="200" height="auto" />
-  <br/>
-  <br/>
-  <p>
-   The Wild Oasis is an internal hotel management system built with nextjs13, prisma, MongoDB, typescript, tailwind CSS, and many other technologies. It allows employees to manage everything about hotel bookings, cabins, and guests.
-  </p>
+  <img src="./public/logo-dark.png" alt="logo" width="90" height="auto">
 
-<p>
-  <a href="https://github.com/sudeepmahato16/the-wild-oasis/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/sudeepmahato16/the-wild-oasis" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/sudeepmahato16/the-wild-oasis" alt="last update" />
-  </a>
-  <a href="https://github.com/sudeepmahato16/the-wild-oasis/network/members">
-    <img src="https://img.shields.io/github/forks/sudeepmahato16/the-wild-oasis" alt="forks" />
-  </a>
-  <a href="https://github.com/sudeepmahato16/the-wild-oasis/stargazers">
-    <img src="https://img.shields.io/github/stars/sudeepmahato16/the-wild-oasis" alt="stars" />
-  </a>
-  <a href="https://github.com/sudeepmahato16/the-wild-oasis/issues/">
-    <img src="https://img.shields.io/github/issues/sudeepmahato16/the-wild-oasis" alt="open issues" />
-  </a>
-  <a href="https://github.com/sudeepmahato16/the-wild-oasis/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/sudeepmahato16/the-wild-oasis.svg" alt="license" />
-  </a>
-</p>
-   
-<h4>
-    <a href="https://the-wild-oasis-roan.vercel.app/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/sudeepmahato16/the-wild-oasis/blob/main/README.md">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/sudeepmahato16/the-wild-oasis/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/sudeepmahato16/the-wild-oasis/issues/">Request Feature</a>
-  </h4>
+  <h2>The Wild Oasis</h2>
+
+  <h3>
+    <a href="https://the-wild-oasis-alamin.vercel.app">
+      <strong>Demo Website</strong>
+    </a>
+  </h3>
+
+  <div align="center">
+    <a href="https://the-wild-oasis-alamin.vercel.app">View Demo</a>
+    •
+    <a href="https://github.com/CodePapa360/The-Wild-Oasis/issues">Report Bug</a>
+    •
+    <a href="https://github.com/CodePapa360/The-Wild-Oasis/pulls">Request Feature</a>
+  </div>
+
+  <hr>
+
 </div>
 
-</br>
+<!-- Badges -->
+<div align="center">
 
-## Features
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
 
-1. **User Authentication and Signup:**
+<a href='https://www.twitter.com/CodePapa360' target="_blank"><img alt='Twitter' src='https://img.shields.io/badge/@CodePapa360-100000?style=for-the-badge&logo=Twitter&logoColor=00C9F7&labelColor=3F3F3F&color=0092FA'/></a>
+<a href='https://www.linkedin.com/in/codepapa360' target="_blank"><img alt='LinkedIn' src='https://img.shields.io/badge/@CodePapa360-100000?style=for-the-badge&logo=LinkedIn&logoColor=00a0dc&labelColor=2F2F2F&color=0077b5'/></a>
 
-   1. Hotel employees can log in to the application to perform tasks.
-   2. New users can only be signed up within the application to ensure that only actual hotel employees can create accounts.
+</div>
 
-2. **User Profile Management:**
+<!-- Brief -->
+<p align="center">
+The Wild Oasis hotel management app is a full-featured React web application that allows hotel employees to manage cabins, bookings, and guests. The app uses Supabase for its backend and implements a variety of advanced React techniques, such as HOCs, the Compound Component Pattern, and React Query.
+</p>
 
-   1. Users can upload an avatar to personalize their profile.
-   2. Users can change their name and password.
+<!-- Screenshot -->
+<a align="center" href="https://the-wild-oasis-alamin.vercel.app">
 
-3. **Cabin Management:**
+![Screenshot](./public/thumbnail-preview.png)
 
-   1. The app provides a table view with all cabins.
-   2. The table view displays cabin information, including cabin photo, name, capacity, price, and current discount.
-   3. Users can update or delete existing cabins.
-   4. Users can create new cabins, including the ability to upload a photo.
+</a>
 
-4. **Booking Management:**
+## Table of contents
 
-   1. The app provides a table view with all bookings.
-   2. The table view displays booking information, including arrival and departure dates, booking status, paid amount, cabin details, and guest data.
-   3. Booking status can be "unconfirmed," "checked in," or "checked out."
-   4. The table view is filterable by booking status.
-   5. Additional booking data includes the number of guests, number of nights, guest observations, and whether breakfast was booked and its price.
+- [Key Features](#key-features)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Installation](#installation)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-5. **Booking Operations:**
+## Key Features
 
-   1. Users can delete, check in, or check out a booking as the guest arrives.
-   2. On check-in, users can accept payment outside the app and then confirm the payment within the app.
-   3. Guests can add breakfast for the entire stay during check-in if they haven't already.
+- Users of the app are hotel employees. They need to be logged into the application to perform tasks
 
-6. **Guest Data Management:**
+- New users can only be signed up inside the applications (to guarantee that only actual hotel employees can get accounts)
 
-   1. Guest data contains full name, email, national ID, nationality, and a country flag for easy identification.
+- Users should be able to upload an avatar, and change their name and password
 
-7. **Dashboard:**
+- App needs a table view with all cabins, showing the cabin photo, name, capacity, price, and current discount
 
-   1. The initial app screen serves as a dashboard displaying important information for the last 7, 30, or 90 days.
-   2. It shows a list of guests checking in and out on the current day, and users can perform tasks related to these activities from the dashboard.
-   3. The dashboard provides statistics on recent bookings, sales, check-ins, and occupancy rates.
-   4. It includes a chart showing all daily hotel sales, distinguishing between "total" sales and "extras" sales (only breakfast at present).
-   5. There's also a chart displaying statistics on stay durations, an important metric for the hotel.
+- Users should be able to update or delete a cabin, and to create new cabins (including uploading a photo)
 
-8. **Application-wide Settings:**
+- App needs a table view with all bookings, showing arrival and departure dates, status, and paid amount, as well as cabin and guest data
 
-   1. Users can define application-wide settings such as breakfast price, minimum and maximum nights per booking, and maximum guests per booking.
+- The booking status can be "unconfirmed" (booked but not yet checked in), "checked in", or "checked out". The table should be filterable by this important status
 
-9. **Dark Mode:**
-   1. The app includes a dark mode option for a different visual appearance and enhanced user experience in low-light conditions.
+- Other booking data includes: number of guests, number of nights, guest observations, whether they booked breakfast, breakfast price
 
-<br/>
+- Users should be able to delete, check in, or check out a booking as the guest arrives
 
-## :camera: Screenshots
+- Bookings may not have been paid yet on guest arrival. Therefore, on check in, users need to accept payment (outside the app), and then confirm that payment has been received (inside the app)
 
-<kbd><img width="890" alt="login" src="https://github.com/sudeepmahato16/the-wild-oasis/assets/122378993/6648f02d-fb01-46ac-810c-fa47066e83ff"></kbd>
+- On check in, the guest should have the ability to add breakfast for the entire stay, if they hadn't already
 
-<kbd><img width="957" alt="dashboard" src="https://github.com/sudeepmahato16/the-wild-oasis/assets/122378993/77754290-4df7-42ee-9e13-66748d596cff"></kbd>
+- Guest data should contain: full name, email, national ID, nationality, and a country flag for easy identification
 
-<kbd><img width="956" alt="bookings" src="https://github.com/sudeepmahato16/the-wild-oasis/assets/122378993/fa04e745-4b44-41d9-b293-53c63545ea9b"></kbd>
+- The initial app screen should be a dashboard, to display important information for the last 7, 30, or 90 days:
 
-<kbd><img width="957" alt="single-booking" src="https://github.com/sudeepmahato16/the-wild-oasis/assets/122378993/33d830fd-6887-467e-b79f-cab427f33680"></kbd>
+  - A list of guests checking in and out on the current day. Users should be able to perform these tasks from here
 
-<br/>
+  - Statistics on recent bookings, sales, check ins, and occupancy rate
 
-## Installation
+  - A chart showing all daily hotel sales, showing both "total" sales and "extras" sales (only breakfast at the moment)
 
-- Clone the repository:
+  - A chart showing statistics on stay durations, as this is an important metric for the hotel
 
-  ```
-  git clone https://github.com/sudeepmahato16/the-wild-oasis.git
-  ```
+- Users should be able to define a few application-wide settings: breakfast price, min and max nights/booking, max guests/booking
 
-- Navigate to the project directory:
+- Dark mode
 
-  ```
-  cd the-wild-oasis
-  ```
+## My process
 
-- Install the dependencies:
+### Built with
 
-  ```
-  npm install
-  ```
+- React
+- Supabase
+- React Query
+- React Router
+- React Hook Form
+- React Hot Toast
+- Recharts
+- Styled Components
+- Vite
 
-- Set up the environment variables:
+### What I Learned
 
-  1.  Create a `.env` file in the root directory.
+- **React Fundamentals:** I gained a solid understanding of React, including components, state management, and routing, allowing me to build dynamic user interfaces.
 
-  2.  Add the following variables to the .env file, replacing the placeholder values with your own:
+- **Authentication and User Management:** I implemented user authentication using Supabase, ensuring secure access for hotel employees and learned to manage user profiles effectively.
 
-  ```
-  DATABASE_URL=<your-mongodb-uri>
-  NEXTAUTH_SECRET=<your-nextauth-secret>
-  NEXT_PUBLIC_CLOUDINARY_KEY=<your-cloudinary-cloud-name>
-  ```
+- **Form Handling:** I became proficient in managing forms with React Hook Form, simplifying form validation, submission, and data handling.
 
-<br/>
+- **Data Fetching and Caching:** React Query was employed to fetch and cache data, enhancing the performance and responsiveness of the application.
 
-## Usage
+- **Real-time Updates:** I integrated real-time data updates using Supabase, enabling instant changes to cabin and booking data.
 
-- In the middleware.ts file, make sure to comment out all the routes as shown below:
+- **Responsive UI Design:** Styled Components were used to create responsive and visually appealing user interfaces that adapt to various screen sizes.
 
-  ```
-  export { default } from "next-auth/middleware"
+- **Toast Notifications:** React Hot Toast added user-friendly notifications for various actions within the app, improving the overall user experience.
 
-  export const config = {
-   matcher: [
-       // "/dashboard",
-       // "/cabins",
-       // "/settings",
-       // "/bookings",
-       // "/users",
-       // "/accounts"
-   ]
-  }
-  ```
+- **Data Visualization:** Recharts was employed for creating charts and visual representations of vital statistics, aiding in data analysis and decision-making.
 
-- To upload sample data, kindly remove the comments from the Uploader component within the Sidebar component, as depicted here:
+- **Routing and Navigation:** React Router facilitated smooth navigation and seamless transitions between different views and pages within the application.
 
-  ```
-  "use client";
-  import React from "react";
-  import Logo from "./Logo";
-  import MainNav from "./MainNav";
-  import { useGlobalContext } from "@/context/GlobalContext";
-  import Uploader from "@/data/Uploader";
+- **Settings Management:** I learned to allow users to configure application-wide settings, such as breakfast pricing and booking constraints.
 
-  const Sidebar = () => {
-  const { isSidebarOpen } = useGlobalContext();
-  return (
+- **Higher-Order Components (HOC):** I utilized Higher-Order Components to enhance code reusability and share common functionalities among multiple components.
 
-  <aside
-  className={`row-span-full w-[250px] ${
-        isSidebarOpen ? "-ml-[250px] " : "m-0 "
-      } bg-white dark:bg-black py-8 px-6 border-r dark:border-gray-900 transition-all duration-300 ease-in-out border-gray-100 flex flex-col gap-8 `} >
-  <Logo />
-  <MainNav />
-  <Uploader />
-  </aside>
-  );
-  };
+- **Compound Component Pattern:** I implemented the Compound Component Pattern to create cohesive and reusable component groups, improving the organization and maintainability of the code.
 
-   export default Sidebar;
+- **Dark Mode Implementation:** Dark mode was implemented to offer users a personalized visual experience and accommodate different preferences.
 
-  ```
+- **Git Version Control:** I practiced effective version control using Git, allowing for code management, and tracking project changes.
 
-- Start the development server:
+- **Project Planning and Management:** I gained experience in planning and managing a large-scale project, including feature development, bug fixing, and testing.
 
-  ```
+By building "The Wild Oasis" project with these technologies and concepts, I've developed a comprehensive set of skills and knowledge that can be applied to future projects and real-world scenarios. This experience has not only expanded my technical expertise but also improved my problem-solving capabilities.
 
-  npm run dev
+### Installation
 
-  ```
+- Clone this repo:
 
-- Open your browser and visit `http://localhost:3000` to access the application.
+```sh
+git clone https://github.com/mohamed-h-rabie/wild-oasis.git
+```
 
-- Click on the Upload All button in the sidebar to upload sample data.
+- Install dependencies:
 
-- Click on Users in the sidebar and create a new user.
+```sh
+npm install
+```
 
-- Once completed, uncomment all the routes in the middleware.ts file and restart the development server.
+- Build command:
 
-- Finally, log in with the newly created user account.
+```sh
+npm run build
+```
 
-<br/>
+- Live server:
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to this project, please follow these steps:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Commit your changes to the new branch.
-- Open a pull request back to the main repository, including a description of your changes.
+```sh
+npm run dev
+```
